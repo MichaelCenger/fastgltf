@@ -336,14 +336,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="$(ProjectDir)\deps\simdjson\simdjson.h" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <ProjectReference Include="$(ProjectDir)\ZERO_CHECK.vcxproj">
-      <Project>{E722ECD6-29EC-3CA3-8042-730C41C60A03}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
