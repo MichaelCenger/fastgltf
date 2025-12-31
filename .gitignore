@@ -53,3 +53,11 @@ docs/xml/
 docs/Doxyfile
 docs/conf.py
 docs/.venv/
+fastgltf.dir
+CMakeFiles
+cmake_install.cmake
+CMakeCache.txt
+*.pdb
+fastgltfConfigVersion.cmake
+*.filters
+*.user
