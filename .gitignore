@@ -22,10 +22,6 @@ cmake-build-*/
 *.dylib
 **/.DS_Store
 
-# Dependencies
-simdjson/
-deps/
-
 # Test files
 tests/gltf/intel_sponza
 tests/gltf/glTF-Sample-Models

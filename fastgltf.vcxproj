@@ -203,10 +203,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SIMDJSON_TARGET_VERSION=\"3.12.3\";FASTGLTF_USE_CUSTOM_SMALLVECTOR=0;FASTGLTF_ENABLE_DEPRECATED_EXT=0;FASTGLTF_DISABLE_CUSTOM_MEMORY_POOL=0;FASTGLTF_USE_64BIT_FLOAT=0;FASTGLTF_ENABLE_KHR_IMPLICIT_SHAPES=0;FASTGLTF_ENABLE_KHR_PHYSICS_RIGID_BODIES=0;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(ProjectDir)\deps\simdjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(ProjectDir)deps\simdjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(ProjectDir)\deps\simdjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(ProjectDir)deps\simdjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -219,7 +219,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(ProjectDir)\deps\simdjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(ProjectDir)deps\simdjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -249,10 +249,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SIMDJSON_TARGET_VERSION=\"3.12.3\";FASTGLTF_USE_CUSTOM_SMALLVECTOR=0;FASTGLTF_ENABLE_DEPRECATED_EXT=0;FASTGLTF_DISABLE_CUSTOM_MEMORY_POOL=0;FASTGLTF_USE_64BIT_FLOAT=0;FASTGLTF_ENABLE_KHR_IMPLICIT_SHAPES=0;FASTGLTF_ENABLE_KHR_PHYSICS_RIGID_BODIES=0;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(ProjectDir)\deps\simdjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(ProjectDir)deps\simdjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(ProjectDir)\deps\simdjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(ProjectDir)deps\simdjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
